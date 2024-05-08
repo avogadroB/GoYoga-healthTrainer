@@ -1,0 +1,323 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.aleo-<uniquifier> {
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body {
+    margin-top:16vh;
+    margin-bottom:0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-family: "Aleo", serif;
+    font-size: large;
+    background-color: #f6f7f9;
+    color: #003152;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background color = #ebb436;
+    color= #fbdc6e
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.step-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f6f7f9;
+
+    background-color: #ebb436;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.step-info {
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-button button {
+    text-decoration: none;
+    color: #f6f7f9;
+    background-color: #003152;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    background color: #fbdc6e;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003152;
+}
+
+.hero {
+    background-color: #fbdc6e;
+    color: #003152;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.nav-hero {
+    //position: -webkit-sticky; /* Safari */
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    background-color: #ebb436;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #003152;
+    height: auto;
+}
+
+.cta-button {
+    background-color: #154000;
+    color: #f6f7f9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #6e2f0d;
+}
+
+.about {
+    background-color: #f6f7f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #003152;
+    color: #f6f7f9;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+// gallery
+
+.gallery-container {
+    margin-top:16vh; 
+    max-width: 800px;
+    margin: 20 auto;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images maintain aspect ratio while covering the container */
+}
+
+
+// forms
+
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f6f7f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #fbdc6e;
+    color: #f6f7f9;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #ebb436;
+  }
+
+.form-body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //height: 100vh;
+  }
+
+.form {
+    background-color: #f6f7f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="submit"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f6f7f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] 
+{
+    background-color: #fbdc6e;
+    color: #f6f7f9;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: #ebb436;
+}
+
+
+  //videocam thingy
+  
+#container 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Add padding */
+}
+
+#videoElement, #referenceImage 
+{
+    max-width: 50%;
+    height: auto;
+    margin: 0 10px; /* Add margin between video and image */
+}
+
+//contact page
+
+
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact h2 {
+    margin-top:16vh;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-option {
+    background-color: #f6f7f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact-option h3 {
+    color: #003152;
+}
+
+.contact-option p {
+    color: #154000;
+    margin-bottom: 20px;
+}
+
+.contact-option button {
+    background-color: #ebb436;
+    color: #f6f7f9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-option button:hover {
+    background-color: #fbdc6e;
+}
