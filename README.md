@@ -19,3 +19,9 @@
 >The whole interface can be controlled via gestures, making it hands-free, 
 elevating the user experience.
 >The interactive interface encourages the user to workout regularly.
+
+
+
+
+https://github.com/avogadroB/GoYoga-healthTrainer/assets/142300294/2bfd3193-616c-4b5b-be44-246d690016e3
+
